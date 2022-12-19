@@ -36,6 +36,7 @@ if (isset($_POST['update'])) {
 <body>
     <div class="container">
         <div class="mt-5">
+            <a class="btn btn-danger mb-3" href="home.php">Back</a>
             <h1 class="mb-4">Update Data</h1>
             <form action="" method="post">
                 <input type="hidden" name="id_todo" value="<?= $value['id_todo'] ?>">
